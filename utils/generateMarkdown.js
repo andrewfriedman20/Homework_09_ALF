@@ -42,26 +42,42 @@ function generateMarkdown(data) {
   
   console.log(data)
   
-  return `# ${data.title}
+  return `# ${data.ToC}
   
   let freshMarkdown = '# ${data.title}
 
-  ![Badge for GitHub repo TL](https://img.shields.io/github/languages/top/${data.username}/${data.repoName}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${data.username}/${data.repo}?style=flat&logo=appveyor)
+  ![Badge for GitHub repo TL](https://img.shields.io/github/languages/top/${data.username}/${data.repoName}?style=flat&logo=appveyor), ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${data.username}/${data.repo}?style=flat&logo=appveyor)
   https://img.shields.io/github/license/$%7Bdata.username%7D/$%7Bdata.repoName%7D
 
   ## Description
 
-  ${data.description}'
+  ${data.description}
 
-  freshMarkdown += ToC;
-
-  freshMarkdown += '*[License](#license)';
-
-  freshMarkdown += '
   
-  ## Installation
+  ##Table of Contents
+  ${data.ToC}
 
-  ${data.installation}'
+ 
+  ## Installation
+  ${data.installation}
+  
+  
+
+  ## Usage
+  ${data.instructions}
+
+
+  ## Contribution Guidelines
+  ${data.contributor}
+
+
+  ## Tests
+  ${data.tests}
+
+
+  ## License
+  ${data.license}
+
   `;
 }
 
