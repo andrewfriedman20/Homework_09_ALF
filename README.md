@@ -12,4 +12,5 @@ The user should type "node index.js" in the command-line and press enter. The us
 
 <img width="571" alt="Screen Shot 2021-04-06 at 11 19 54 PM" src="https://user-images.githubusercontent.com/77944651/113809853-a0fa9a80-972e-11eb-8cdd-a039cbc062e1.png">
 
-[Video walkthrough of the Project: ](https://youtu.be/FBV0rrReDTA)
+[Please click here for Video walkthrough of the Project: ](https://youtu.be/FBV0rrReDTA)
+<https://youtu.be/FBV0rrReDTA>
