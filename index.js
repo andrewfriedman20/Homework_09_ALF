@@ -36,7 +36,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Please write a description of your project.'
+        message: 'Please write a description of your project'
 
     },
     {
@@ -48,13 +48,13 @@ const questions = [
     {
         type: 'input',
         name: 'instructions',
-        message: 'For the usage section, please provide instructions for use of your project.'
+        message: 'For the usage section, please provide instructions for use of your project'
 
     },
     {
         type: 'input',
         name: 'contributor',
-        message: 'Provide guidelines as to how other developers may contribute to your project.'
+        message: 'Provide guidelines as to how other developers may contribute to your project'
 
     },
     {
@@ -99,4 +99,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
