@@ -1,6 +1,8 @@
 '[Title](#title)',
-//  Function creates licenxe badge based on the user selection of a license badge
-// should the user not choose a license in the terminal, the field shall remain blank
+
+
+//  Function creates license badge based on the user's selection of a license in the terminal.
+// Should the user not choose a license in the terminal, the field shall remain blank.
 // 
 function renderLicenseBadge(license) {
   if (license === 'MIT') {
@@ -45,7 +47,7 @@ function renderLicenseSection(license) {
 
 // This function generates the markdown for the README
 function generateMarkdown(data) {
-  let scribeToF = '## Table of Contents';
+  let scribeToF = '## Table of Contents'
 
   if (data.installation !==''){scribeToF += '[Installation](#installation)'};
 
@@ -100,4 +102,3 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown
-
